@@ -1,0 +1,20 @@
+#Sous Colab 
+import keras
+import pathlib
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from keras.models import Sequential, load_model
+from keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
+#from tensorflow.keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
+from PIL import Image
+import datetime
+import seaborn as sns 
+
+#Sous Jupyter 
+import matplotlib.pyplot as plt
+import numpy as np
+import streamlit as st
+import tensorflow as tf
